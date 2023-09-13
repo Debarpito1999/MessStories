@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DH Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+          * {
+           margin: 0;
+           padding: 0%;
+          }
+         body{
+            background-color:rgb(2, 17, 103);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+         }
+         nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 40px;
+            background-color: rgb(132, 48, 250);
+         }
+         nav ul{
+          display: flex;
+          justify-content: center;
+         }
+         nav ul li {
+            list-style: none;
+            margin:0 23px;
+         }
+         nav ul li a{
+            text-decoration: none;
+            color: white;
+         }
+         nav ul li a:hover{
+            color: rgb(78, 215, 250);
+            font-size: 1.02rem;
+         }
+         .left{
+            font-size: 1rem;
+         }
+         .firstSection{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+         }
+         .firstSection > div{
+         width: 30%;
+         }
+         .leftSection{
+        
+            font-size: 2.4rem;
+            margin: auto;
+         }
+         .rightSection img{
+            width: 50%;
+            margin: auto;
+         }
+         .purple{
+            color: rgb(99, 170, 250);
+         }
+        #element{
+            color: rgb(99, 170, 250);
+        }
+        main hr{
+            border: 0;
+            background: rgb(131, 205, 252);
+            height: 1.2px;
+            margin: 30px 70px;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 40vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .text-gray{
+            color:gray;
+        }
+        .secondSection .projects{
+            background: white;
+            max-width: 80vw;
+             height: 2px;
+             margin: auto;
+             display:flex;
+        }
+      .footer{
+        background-color: rgb(41, 1, 114);
+        height:233px;
+        margin: auto;
+        justify-content: space-evenly;
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+      }
+      .footer ul{
+        list-style: none;
+     text-decoration: none;
+      }
+      .footer ul a{
+        color: white;
+      }
+      .footer ul a:hover{
+      color: blueviolet;
+    }
+ </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class ="left">
+                <img src="DH.png" alt style="
+                width: 13%;
+                margin: auto;">
+                </div>
+            <div class ="right">
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   <main>
+    <section class="firstSection">
+        <div class="leftSection">
+          <div>  Hi,Myself <span class="purple">Debarpito</span> </div>
+            <div>and I am Passoniate</div>
+            <span id="element"></span>
+        </div>
+        <div class="rightSection">
+    <img src="bg.png" alt style="
+        width: 80%;
+        margin: 50px 0;">
+        </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work On Projects</h1>
+        <br>
+        <div>
+            <ul>
+                <li><b>Emotion Detection using CNN</b></li>
+                <li><b>E-Commerce Website</b></li>
+                <li><b>Library Management System</b></li>
+            </ul>
+        </div>
+    </section>
+   </main>
+   <footer>
+    <div class="footer">
+        <div class="footer-first">
+            <img src="DH.png" alt style="
+        width: 50%;
+        margin: auto;">
+        </div>
+        <div class="footer-Second">
+            <ul>
+                <li><a href="/">Home</a> </li>
+                <li><a href="/">About</a> </li>
+                <li><a href="/">Blogs</a></li>
+                <li><a href="/">Contact Me</a> </li>
+                
+            </ul>
+        </div>
+        <div class="footer-Third">
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100008606072441">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/debarpito-halder-4401ab206/">Linkdin </a></li>
+                <li><a href="https://www.instagram.com/mind_art_lover_d/">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-Fourth">
+           <h4> <b>Email:1999debarpitodh30@gmail.com</b> </h4>
+           <h4> <b>  Contact Number:8348161625</b> </h4>
+        </div>
+    </div>
+   </footer>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
